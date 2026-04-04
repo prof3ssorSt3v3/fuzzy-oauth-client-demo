@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', init);
 let localURL, remoteURL;
-const APIURL = `http://localhost:4000`;
+// const APIURL = `http://localhost:4000`;
+const APIURL = `https://fuzzy-oauth-client-demo.vercel.app`;
 
 function init() {
   //listen for button click
