@@ -1,0 +1,31 @@
+:root {
+  --font-sans: 'Noto Sans', sans-serif;
+  --font-serif: 'Noto Serif', serif;
+  --font-mono: 'Noto Sans Mono', monospace;
+
+  --space: 1rem;
+}
+html {
+  font-size: 1rem;
+  font-family: var(--font-sans);
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100dvh;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+}
+code,
+pre {
+  font-family: var(--font-mono);
+}
+header,
+main,
+footer {
+  padding-inline: calc(4 * var(--space));
+  padding-block: var(--space);
+}
